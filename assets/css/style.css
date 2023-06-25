@@ -5,7 +5,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #fff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -16,14 +16,15 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #EF3E42;
   display: block;
   transition: 0.3s;
+  font-family: Regular;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #c41c1e;
 }
 
 /* Position and style the close button (top right corner) */
@@ -39,4 +40,8 @@
   .right {
     display: none;
   }
+}
+@font-face {
+  font-family: Regular;
+  src: url("../fonts/Belanosima-Regular.ttf");
 }/*# sourceMappingURL=style.css.map */
